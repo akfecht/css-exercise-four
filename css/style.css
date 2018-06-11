@@ -29,12 +29,19 @@
 
 div {
   background-color: #ffffff;
-  margin: 2%;
+  margin: 1% 0;
   padding: 80px 50px 250px 50px;
   width: 100%;
   float: left;
 }
 
+/* Font Changes */
+
+.container > h1 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
 /* Media Queries */
 
 @media screen and (min-width: 575px){
@@ -97,7 +104,6 @@ it out.
 
 
 body {
-  margin: 8px;
   background-color: #dadada;
   font-size: 24px;
 }
