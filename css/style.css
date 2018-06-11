@@ -1,4 +1,4 @@
-*, *::before, *::after {
+* {
   box-sizing: border-box;
 }
 
@@ -7,7 +7,16 @@
   width: 450px;
 }
 
+.preview-baku {
+  background-image: url(images/baku.jpg);
+  margin: 50px;
+  padding: 50px;
+  width: 250px;
+}
+
 body {
+  display: block;
+  margin: 8px;
   background-color: #dadada;
   font-size: 10px;
 }
