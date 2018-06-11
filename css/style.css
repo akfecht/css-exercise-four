@@ -8,11 +8,27 @@
 }
 
 .preview-baku {
-  background-image: url(images/baku.jpg);
+  background-color: #ffffff;
   margin: 50px;
   padding: 50px;
   width: 250px;
 }
+
+.preview-london {
+  margin: 50px;
+  padding: 50px;
+  width: 250px;
+  background-color: #ffffff;
+}
+
+.preview-madrid {
+  margin: 50px;
+  padding: 50px;
+  width: 250px;
+}
+
+
+
 
 body {
   display: block;
