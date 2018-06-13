@@ -3,39 +3,30 @@
 }
 
 
-.preview-baku {
+.baku {
   background-image: url('../images/baku.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
-.preview-london {
+.london {
   background-image: url('../images/london.png');
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
-.preview-madrid {
+.madrid {
   background-image: url('../images/madrid.jpg');
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
-.preview-rome {
+.rome {
   background-image: url('../images/rome.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
-div {
-  background-color: #ffffff;
+.preview {
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: 1% 0;
   padding: 80px 50px 250px 50px;
   width: 100%;
   float: left;
 }
-
 
 
 /* Font Changes */
@@ -52,7 +43,7 @@ div {
     margin: 10%;
   }
 
-   div {
+   .preview {
     padding: 80px 50px 160px 50px;
     margin: 1%;
     width: 48%;
@@ -60,7 +51,7 @@ div {
 }
 
 @media screen and (min-width: 991px){
-   div {
+   .preview {
     margin: 1%;
     width: 23%;
   }
